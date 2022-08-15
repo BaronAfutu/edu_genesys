@@ -1,0 +1,160 @@
+body,
+p,
+
+ul,
+li,
+input {
+  margin: 0px;
+  padding: 0px
+
+}
+body {
+  margin: 0px;
+  
+  font-family: Arial, Helvetica, freesans, sans-serif;
+  background-color: #E7E8E1;
+}
+#topnav {
+  background-color: black
+  /*#7a0000*/
+  ;
+  width: 100%;
+  height: 41px; 
+
+}
+.page-width {
+  width: 1268px;
+  margin: 0px auto;
+}
+
+
+#topnav-signout {
+  font-stretch: semi-expanded;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 13px 70px 0px 0px;
+  border-right: 1px solid #666666;
+  float: left;
+  text-decoration-style: none;
+}
+#topnav-signout a{
+  color: white;
+  text-decoration: none;
+}
+
+#topnav-menu {
+  float: left;
+  border-bottom: 2px solid #ff5722;
+
+}
+#topnav-menu ul{
+  list-style:none;
+  padding:0;
+  margin:0;
+  position:absolute;
+}
+#topnav-menu li {
+  list-style: none;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 13px 20px 0px 0px;
+  border-right: 1px solid #666666;
+  float: left;
+  
+  
+
+}
+#topnav-menu ul li  {
+  position: relative;
+  top: 1px;
+  padding-left: 30px
+}
+#topnav-menu ul li a{
+  display: block;
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+}
+#topnav-search {
+  float: right;
+  padding: 8px 87px 5px 5px;
+  
+}
+#topnav-search input {
+  padding-top: 0px;
+  padding-left: 7px;
+  height: 24px;
+  width: 143px;
+  font-weight: 600;
+  color: black;
+  border: none;
+  vertical-align: middle;
+  box-sizing: border-box;
+  border: 2px solid #ff5722;
+  
+}
+input[type="submit"]
+{
+  margin-left:80% ;
+  width:80px;
+  height:25px;
+  border:none;
+  background:#ff5722;
+  border-radius:2px;
+  color:#fff;
+  font-family:sans-serif;
+  transition:0.2s ease;
+  cursor: pointer;
+    
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+  background:black;
+  transition: 0.2s ease;
+}
+
+label{
+  color: black;
+}
+h6{
+color: black;
+font-family: Arial, Helvetica, freesans, sans-serif;
+font-size: 15px;
+font-weight: 500;
+}
+.container{
+  margin-top:50px;
+}
+.container1{
+  color: black;
+  font-family: Arial, Helvetica, freesans, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.row{
+  padding-top: 10px;
+  padding-left: 150px;
+  opacity:0.7;
+  text-decoration:none;
+  }
+  h5{
+  color: white;
+font-family: Arial, Helvetica, freesans, sans-serif;
+font-size: 15px;
+font-weight: 500;
+}
+p{
+  color: white;
+}
+
+.container1{
+  font-family: Arial, Helvetica, freesans, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: black;
+  height: 200px;
+  width: 100%;
+  margin-top: 500px;
+
+}
